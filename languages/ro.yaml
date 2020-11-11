@@ -1,79 +1,79 @@
 tw.gui.crashMessage.description:
   englishMessage: We are so sorry, but it looks like TurboWarp has crashed. Please refresh your page to try again.
   description: Message to inform the user that page has crashed.
-  message: null
+  message: Ne pare rău, dar se pare că serverul TurboWarp s-a blocat. Vă rugăm să reîncărcați pagina pentru a încerca din nou.
 tw.loadingMessage:
   englishMessage: Loading project …
   description: Default loading message
-  message: null
+  message: Se încarcă proiectul …
 tw.menuBar.60off:
   englishMessage: Turn off 60 FPS mode
   description: Menu bar item for turning off 60 FPS mode
-  message: null
+  message: Oprește modul de 60 Frame-uri Pe Secundă
 tw.menuBar.60on:
   englishMessage: Turn on 60 FPS mode
   description: Menu bar item for turning on 60 FPS mode
-  message: null
+  message: Pornește modul de 60 Frame-uri Pe Secundă
 tw.menuBar.changeUsername:
   englishMessage: Change Username
   description: Menu bar item for changing the username
-  message: null
+  message: Schimbă Utilizatorul
 tw.menuBar.cloudOff:
   englishMessage: Disable Cloud Variables
   description: Menu bar item for disabling cloud variables
-  message: null
+  message: Oprește Variabilele Cloud
 tw.menuBar.cloudOn:
   englishMessage: Enable Cloud Variables
   description: Menu bar item for enabling cloud variables
-  message: null
+  message: Pornește Variabilele Cloud
 tw.menuBar.cloudUnavailable:
   englishMessage: Cloud Variables are not Available
   description: Menu bar item for when cloud variables are not available
-  message: null
+  message: Variabilele Cloud nu sunt valabile
 tw.menuBar.advanced:
   englishMessage: Advanced
   description: Text for advanced settings dropdown menu
-  message: null
+  message: Avansat
 tw.menuBar.hqpOff:
   englishMessage: Turn off High Quality Pen
   description: Menu bar item for turning off high quality pen
-  message: null
+  message: Oprește modul Stilou de Calitate Înaltă
 tw.menuBar.hqpOn:
   englishMessage: Turn on High Quality Pen
   description: Menu bar item for turning on high quality pen
-  message: null
+  message: Pornește modul Stilou de Calitate Înaltă
 tw.menuBar.compilerOff:
   englishMessage: Disable Compiler
   description: Menu bar item for disabling the compiler
-  message: null
+  message: Oprește Compilerul
 tw.menuBar.compilerOn:
   englishMessage: Enable Compiler
   description: Menu bar item for enabling the compiler
-  message: null
+  message: Pornește Compilerul
 tw.menuBar.warpTimerOff:
   englishMessage: Turn off Warp Timer (Stuck Checking)
   description: Menu bar item for turning off Warp Timer
-  message: null
+  message: Oprește Cronometrul Warp (Stuck Checking)
 tw.menuBar.warpTimerOn:
   englishMessage: Turn on Warp Timer (Stuck Checking)
   description: Menu bar item for turning on Warp Timer
-  message: null
+  message: Pornește Cronometrul Warp (Stuck Checking)
 tw.menuBar.help:
   englishMessage: Help
   description: Text for TurboWarp Help dropdown menu
-  message: null
+  message: Ajutor
 tw.menuBar.code:
   englishMessage: Source Code
   description: Menu bar item for source code link
-  message: null
+  message: Cod sursă
 tw.menuBar.feedback:
   englishMessage: Feedback & Bugs
   description: Menu bar item for feedback link
-  message: null
+  message: Sugestii și Erori
 tw.menuBar.privacy:
   englishMessage: Privacy
   description: Menu bar item for privacy policy link
-  message: null
+  message: Confidențialitate
 tw.menuBar.embed:
   englishMessage: Embedding
   description: Menu bar item for embedding link
@@ -81,51 +81,51 @@ tw.menuBar.embed:
 tw.menuBar.parameters:
   englishMessage: URL Parameters
   description: Menu bar item for URL parameters link
-  message: null
+  message: Parametri URL
 tw.giveFeedback:
   englishMessage: Give Feedback
   description: Text for the giving feedback button
-  message: null
+  message: Spune-ți Părerea (Feedback)
 tw.unsavedChanges:
   englishMessage: Unsaved Changes
   description: Title bar link indicating unsaved changes
-  message: null
+  message: Modificări nesalvate
 tw.menuBar.seeInside:
   englishMessage: See Inside
   description: Label for see inside button
-  message: null
+  message: Vezi în interior
 tw.home.instructions:
   englishMessage: Instructions
   description: Header for instructions section of description
-  message: null
+  message: Instrucțiuni
 tw.home.credit:
   englishMessage: Notes and Credits
   description: Header for notes and credits section of description
-  message: null
+  message: Observații și Credite
 tw.viewFeaturedProjects:
   englishMessage: Click to view featured projects.
   description: Text to view featured projects
-  message: null
+  message: Vezi proiectele recomandate (dați click).
 tw.featuredProjectsStudio:
   englishMessage: View studio on Scratch.
   description: Link to turbowarp featured projects studio
-  message: null
+  message: Vezi atilierul pe Scratch.
 tw.framerateIndicator:
   englishMessage: "{framerate} FPS"
   description: Label indicating project framerate
-  message: null
+  message: "{framerate} Frame-uri Pe Secundă"
 tw.alerts.warning:
   englishMessage: Turn on Warp Timer or disable compiler (in Advanced menu) while creating projects to avoid potential data loss. Also note that scripts may need to be restarted for changes to apply.
   description: Message warning user of potential data loss.
-  message: null
+  message: Pornește Cronometrul Warp sau oprește compilerul (în meniul Avansat) cât timp creezi un proiect pentru a evita potențiala pierdere de date. Și mai ține minte că s-ar putea ca script-urile să trebuiască să fie reîncărcate pentru a aplica modificările.
 tw.gui.defaultProjectTitle:
   englishMessage: Project
   description: Default title for project
-  message: null
+  message: Proiect
 tw.home.description:
   englishMessage: TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.
   description: Description of TurboWarp
-  message: null
+  message: TurboWarp este un modul pentru Scratch care care compilează (transpune) proiectele în JavaScript pentru a le rula foarte rapid. Încearcă-l prin scrierea ID-ului sau URL-ului unui proiect în caseta de mai sus sau alege unul dintre proiectele recomandate de mai jos.
 tw.footer.disclaimer:
   englishMessage: Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.
   description: Disclaimer that TurboWarp is not connected to Scratch and licensing information
@@ -141,63 +141,66 @@ tw.footer.host.fosshost:
 tw.footer.source:
   englishMessage: Source Code
   description: Link to footer to source code
-  message: null
+  message: Cod Sursă
 tw.footer.feedback:
   englishMessage: Feedback & Bugs
   description: Link in footer to give feedback
-  message: null
+  message: Sugestii și Erori
 tw.footer.privacy:
   englishMessage: Privacy
   description: Link in footer to privacy policy
-  message: null
+  message: Confidențialitate
 tw.loader.generic:
   englishMessage: Loading project …
   description: Initial generic loading message
-  message: null
+  message: Se încarcă proiectul …
 tw.loader.data:
   englishMessage: Loading project data …
   description: Appears when loading project data
-  message: null
+  message: Se încarcă datele proiectului …
 tw.loader.assets.known:
   englishMessage: Loading assets ({complete}/{total}) …
   description: Appears when loading project assets and amount of assets is known
-  message: null
+  message: Se încarcă blocurile ({complete}/{total}) …
 tw.loader.assets.unknown:
   englishMessage: Loading assets …
   description: Appears when loading project assets but amount of assets is unknown
-  message: null
+  message: Se încarcă blocurile …
 tw.menuBar.advancedHelp:
   englishMessage: Advanced Settings Help
   description: Menu bar item for advanced settings help
-  message: null
+  message: Ajutor pentru Setările Avansate
 tw.menuBar.translate:
   englishMessage: Help Translate TurboWarp
   description: Menu bar item for translating TurboWarp link
-  message: null
+  message: Ajutați la Traducerea TurboWarp
 tw.examples.view:
   englishMessage: Click to view example projects.
   description: Text to view example projects
-  message: null
+  message: Vezi proiectele recomandate (dați click).
 tw.examples.studioLink:
   englishMessage: View studio on Scratch.
   description: Link to turbowarp examples studio
-  message: null
+  message: Vezi atilierul pe Scratch.
 tw.studioview.authorAttribution:
   englishMessage: by {author}
   description: Displayed in StudioView under project title to credit creator
-  message: null
+  message: de {author}
 tw.studioview.hoverText:
   englishMessage: "{title} by {author}"
   description: Displayed in StudioView when hovering on a project
-  message: null
+  message: {title} de {author}
 tw.studioview.error:
   englishMessage: There was an error loading the next page of projects.
   description: Displayed in StudioView when an error occurs
-  message: null
+  message: A apărut o eroare la încărcarea paginii urmatoare cu proiecte.
 tw.usernamePrompt:
   englishMessage: |-
     Can't connect to cloud variables because username is invalid. You can change it in Edit > Change Username.
 
     It might be too long, contain invalid characters, or be used by someone else. (Current username: {username})
   description: Warning that appears when connecting to cloud variable server if the username is invalid
-  message: null
+  message: |-
+    Nu se poate conecta la variabilele cloud deoarece utilizatorul este invalid. Îl poți schimba în Editează > Schimbă utilizatorul.
+    
+    Poate să fie prea lung, să conțină caractere invalide, sau să fie folosit de altcineva. (Utilizatorul curent: {username})
