@@ -151,3 +151,23 @@ expectInvalidMessage('tw.123', {
   englishMessage: 'Hello.',
   message: 'Bye'
 });
+expectValidMessage('tw.123', {
+  ...m,
+  englishMessage: 'Hello\n123',
+  message: 'Bye\n123'
+});
+expectInvalidMessage('tw.123', {
+  ...m,
+  englishMessage: 'Hello\n123',
+  message: 'Bye123'
+});
+expectInvalidMessage('tw.123', {
+  ...m,
+  englishMessage: 'Hello\n123',
+  message: 'Bye\n123\n'
+});
+expectInvalidMessage('tw.123', {
+  ...m,
+  englishMessage: 'Hello 123',
+  message: 'Bye 123\n'
+});

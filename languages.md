@@ -17,7 +17,6 @@ If you do not see your language here, open an issue: https://github.com/TurboWar
 | Deutsch | de.yaml |
 | Eesti | et.yaml |
 | Ελληνικά | el.yaml |
-| English | en.yaml |
 | Español | es.yaml |
 | Español Latinoamericano | es-419.yaml |
 | Euskara | eu.yaml |

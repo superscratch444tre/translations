@@ -89,7 +89,13 @@ const validateMessage = (key, value) => {
     const englishPunctuation = getPunctuation(value.englishMessage);
     const messagePunctuation = getPunctuation(value.message);
     if (englishPunctuation !== messagePunctuation) {
-      throw new Error(`${key}: Incorrect punctuation: expected ${englishPunctuation} but fond ${messagePunctuation}`);
+      throw new Error(`${key}: Incorrect punctuation: expected ${englishPunctuation} but found ${messagePunctuation}`);
+    }
+
+    const englishLineCount = value.englishMessage.split('\n').length;
+    const messageLineCount = value.message.split('\n').length;
+    if (englishLineCount !== messageLineCount) {
+      throw new Error(`${key}: Incorrect amount of lines: expected ${englishLineCount} but found ${messageLineCount}`);
     }
   }
 };
