@@ -9,11 +9,11 @@ tw.loadingMessage:
 tw.menuBar.60off:
   englishMessage: Turn off 60 FPS mode
   description: Menu bar item for turning off 60 FPS mode
-  message: Oprește modul de 60 Frame-uri Pe Secundă
+  message: Oprește modul de 60 Frame-uri Pe Secundă (FPS)
 tw.menuBar.60on:
   englishMessage: Turn on 60 FPS mode
   description: Menu bar item for turning on 60 FPS mode
-  message: Pornește modul de 60 Frame-uri Pe Secundă
+  message: Pornește modul de 60 Frame-uri Pe Secundă (FPS)
 tw.menuBar.changeUsername:
   englishMessage: Change Username
   description: Menu bar item for changing the username
