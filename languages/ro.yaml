@@ -197,6 +197,7 @@ tw.studioview.error:
 tw.usernamePrompt:
   englishMessage: |-
     Can't connect to cloud variables because username is invalid. You can change it in Edit > Change Username.
+    
     It might be too long, contain invalid characters, or be used by someone else. (Current username: {username})
   description: Warning that appears when connecting to cloud variable server if the username is invalid
   message: |-
