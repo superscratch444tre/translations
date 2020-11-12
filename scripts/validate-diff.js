@@ -16,7 +16,7 @@ for (var i = 0; i < lines.length; i++) {
     currentFile = line.substr(6);
     continue;
   }
-  if (!line.includes('tw.')) {
+  if (line.includes('tw.')) {
     console.error(`${currentFile} unexpectedly changed translation ID`);
     valid = false;
   } else if (line.includes('englishMessage:')) {
