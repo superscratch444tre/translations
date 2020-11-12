@@ -189,7 +189,7 @@ tw.studioview.authorAttribution:
 tw.studioview.hoverText:
   englishMessage: "{title} by {author}"
   description: Displayed in StudioView when hovering on a project
-  message: {title} de {author}
+  message: "{title} de {author}"
 tw.studioview.error:
   englishMessage: There was an error loading the next page of projects.
   description: Displayed in StudioView when an error occurs
@@ -197,10 +197,10 @@ tw.studioview.error:
 tw.usernamePrompt:
   englishMessage: |-
     Can't connect to cloud variables because username is invalid. You can change it in Edit > Change Username.
-    
+
     It might be too long, contain invalid characters, or be used by someone else. (Current username: {username})
   description: Warning that appears when connecting to cloud variable server if the username is invalid
   message: |-
     Nu se poate conecta la variabilele cloud deoarece utilizatorul este invalid. Îl poți schimba în Editează > Schimbă utilizatorul.
-    
+
     Poate să fie prea lung, să conțină caractere invalide, sau să fie folosit de altcineva. (Utilizatorul curent: {username})
